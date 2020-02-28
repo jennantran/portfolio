@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.homePage{
+    background:  url('waterColorVersion.JPG');
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectPage{
+    margin:0;
+}
+
+nav{
+    padding: 30px;
+    background-color: grey;
+
+}
+
+section{
+    text-align: center;
+    
+}
+
+.sectionHome{
+    background-color: grey;
+}
+
+.section-1, .section-2, .section-3{
+    min-height: 300px;
+    width: 100%;
+    
+}
+
+
+.section-1{
+    background-image: url('waterColorVersion.JPG');
+    background-size: 900px 300px;
+}
+
+.section-2{
+    background-color: grey;
+}
+
+
+
+.quizScreenShot{
+    display: block;
+    width: 500px;
+    height: 500px;
+}
+
+.icons{
+   display: flex;
+   flex-direction: row;
+
+}
+
+#icon{
+    width: 50px;
+    height: 40px;
+
+}
+/* h1{
+    margin: 0;
+    text-align: center;
+    font-family: 'Dancing Script';
+    color: white;
+
+    
+} */
+
+/* p{
+    font-family: 'Open Sans';
+    color: white;
+  
+} */
+
+

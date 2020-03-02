@@ -4,59 +4,124 @@
     padding: 0;
 }
 
-
-
-
-.homePage{
-    background:  url('waterColorVersion.JPG');
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: cover;
+body{
     display: flex;
     flex-direction: column;
 }
 
-.projectPage{
-    margin:0;
+p{
+    font-family: 'EB Garamond';
+    color: #504F4F;
+    font-size: 18px;
+    line-height: 30px; 
+    padding-top: 50px;
+    padding-bottom:50px;
+    border-bottom: #094d74 solid 2px;
+  
 }
 
-nav{
-    padding: 30px;
-    background-color: grey;
 
-}
-
-section{
+h2{
+    font-family: 'Oswald';
+    color: #094d74;
+    font-size: 18px;
+    line-height: 30px; 
     text-align: center;
-    
+
+}
+/****** Header *****/
+
+.backgroundAboutMe{
+    background: url('portfolio-background.jpg') ;
+    opacity: 1.0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+
 }
 
-.sectionHome{
-    background-color: grey;
+.myProjects{
+    background-image: url('portfolio-background.jpg');
+    background-size: 100% 100%;
+    opacity: 1.0;
+    background-repeat: no-repeat;   
+    display: flex;
+    flex-direction: column;
+  
 }
 
-.section-1, .section-2, .section-3{
-    min-height: 300px;
-    width: 100%;
-    
+h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Oswald';
+    color: white;
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0.72)
+
+} 
+
+/***** Nav Bar *****/
+
+ul{
+    text-align: right;
+    padding: 10px;
+}
+
+li{
+    display: inline;
+    font-family: 'EB Garamondy';
+    margin-right: 10px;
+}
+
+a:hover{
+    border-bottom: 2px solid black;
+}
+
+li:not(:first-child):before {
+        content: " | ";
+}
+
+li a{
+    text-decoration: none;
+    color: #094d74;
+    margin-left: 5px;
+}
+
+/*** my home page specific code ***/
+
+.container{
+    padding-top:60px;
+    width: 60%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+/**** My projects page specific cod ***/
+
+.explore{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
 }
 
 
-.section-1{
-    background-image: url('waterColorVersion.JPG');
-    background-size: 900px 300px;
+.projects{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.section-2{
-    background-color: grey;
-}
-
 
 
 .quizScreenShot{
     display: block;
     width: 500px;
-    height: 500px;
+    height: 400px;
 }
 
 .icons{
@@ -66,23 +131,30 @@ section{
 }
 
 #icon{
-    width: 50px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
+    margin-left: 5px;
+    margin-right:5px;
+
 
 }
-/* h1{
-    margin: 0;
-    text-align: center;
-    font-family: 'Dancing Script';
-    color: white;
 
-    
-} */
+.container2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
 
-/* p{
-    font-family: 'Open Sans';
-    color: white;
-  
-} */
+.BTS{
+    padding: 20px;
+}
+
+a#project{
+    display: inline-block;
+}
+
+
+
+
 
 

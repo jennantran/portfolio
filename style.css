@@ -106,6 +106,10 @@ li a{
 
 /**** My projects page specific code ***/
 
+.exploreHeader{
+    cursor: pointer;
+}
+
 .explore{
 
     padding-top: 50px;

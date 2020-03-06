@@ -34,7 +34,7 @@ h2{
 /****** Header *****/
 
 .backgroundAboutMe{
-    background: url('portfolio-background.jpg') ;
+    background: url('allImages/portfolio-background.jpg') ;
     opacity: 1.0;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -44,7 +44,7 @@ h2{
 }
 
 .myProjects{
-    background-image: url('arkansas.jpg');
+    background-image: url('allImages/arkansas.jpg');
     background-size: 100% 100%;
     opacity: 1.0;
     background-repeat: no-repeat;   

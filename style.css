@@ -132,6 +132,15 @@ li a{
     height: 100px;
 }
 
+.cookScreenShot{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 250px;
+    height: 150px;
+    margin-top: 70px;
+}
+
 .icons{
    display: flex;
    flex-direction: row;
@@ -141,8 +150,8 @@ li a{
 #icon{
     width: 70px;
     height: 70px;
-    margin-left: 5px;
-    margin-right:5px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
@@ -159,8 +168,16 @@ li a{
 
 .projectContainer{
     width: 70%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
+
+.cookEasyLinks{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 /***** self picture *****/
 
@@ -209,4 +226,12 @@ li a{
         width: 500px;
         height: 400px;
     }
+
+    .cookScreenShot{
+        width: 400px;
+        height: 250px;
    }
+   .cookEasyLinks{
+    width:200px;
+   }
+}

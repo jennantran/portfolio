@@ -162,7 +162,7 @@ li a{
 
 }
 
-#icon, #iconQuiz,#iconCook,#iconTour,#iconMotion{
+#icon, #iconQuiz,#iconCook,#iconTour,#iconMotion, #reactIconMotion, #reactIconTour{
     width: 70px;
     height: 70px;
     margin-left: auto;
